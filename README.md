@@ -1,3 +1,6 @@
+Category based content management system for multiple users with different permission levels to manage, publish, edit, or delete content or data dynamically from Admin Panel
+
+
 Home page for my website is consist of the following
 1. Navbar
 Navbar of this website is consist of logo and Title for the website and Menus for Home page, Admin Login, Categories (drop down menu which will grab the categories from database).
