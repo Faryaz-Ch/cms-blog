@@ -1,0 +1,381 @@
+*
+{
+	position:relative;
+	margin:0px;
+	padding:0px;	
+}
+
+.clear
+{
+	clear:both;	
+}
+
+body
+{
+	background-color:#CCC;	
+}
+
+#outter_body
+{
+	width:1400px;
+	margin:auto;
+	height:1191px;
+	background-color:white;	
+}
+
+/******************end outter div************************/
+
+#back_top
+{
+	height:400px;
+}
+/********************back top end*********************/
+#inner_body
+{
+	height:1191px;
+	width:1000px;
+	margin:auto;
+	margin-top:-400px;
+	z-index:100;	
+}
+/******************inner body end******************************/
+header
+{
+	height:400px;	
+}
+
+header #top
+{
+	height:120px;
+	background-color:white;	
+}
+
+header #top #logo
+{
+	width:283px;
+	float:left;
+	height:100%;
+}
+
+header #top #logo img
+{
+	margin-top:30px;
+	margin-left:20px;	
+}
+
+header #top #menu
+{
+	width:490px;
+	float:right;
+	height:100%;
+}
+
+header #top #menu nav#first
+{
+	width:311px;
+	height:35px;
+	background-color:#76b2c3;
+	margin-top:20px;
+	margin-left:194px;
+	opacity:0.9;	
+}
+
+header #top #menu nav#first ul
+{
+	list-style-type:none;	
+}
+
+header #top #menu nav#first ul li
+{
+	float:left;
+	margin-top:10px;
+	padding:0px 10px 0px 10px;
+	font-size:13px;
+	font-family:Proxima Nova;
+	border-right:1px solid white;	
+}
+
+header #top #menu nav#first ul li:nth-child(3)
+{
+	border-right:none;	
+}
+
+header #top #menu nav#first ul li a
+{
+	color:white;
+	text-decoration:none;	
+}
+
+header #top #menu nav#first ul li a:hover
+{
+	text-decoration:underline;	
+}
+
+header #top #menu nav#first img
+{
+	margin-top:8px;
+	margin-left:60px;	
+}
+
+header #top #menu nav#sec
+{
+	height:65px;	
+}
+
+header #top #menu nav#sec ul
+{
+	list-style-type:none;
+	height:65px;
+	line-height:65px;	
+}
+
+header #top #menu nav#sec ul li
+{
+	float:left;
+	padding:0px 25px 0px 25px;
+	font-family:Proxima Nova;
+	font-size:15px;	
+	text-transform:uppercase;
+}
+
+header #top #menu nav#sec ul li a
+{
+	color:#668333;
+	text-decoration:none;	
+}
+
+header #top #menu nav#sec ul li a:hover
+{
+	color:#4999af;
+}
+
+header #heading
+{
+	height:62px;
+	width:303px;
+	background-color:#2c7c92;
+	margin-top:179px;
+	color:white;
+	font-weight:bold;
+	font-size:34px;
+	font-family:Proxima Nova;
+	line-height:62px;
+	padding-left:20px;
+	opacity:0.9;	
+}
+
+/******************header end***************************/
+#body
+{
+	height:578px;
+}
+
+#body .product
+{
+	width:320px;
+	height:252px;
+	float:left;
+	margin-left:10px;
+	margin-top:25px;	
+}
+
+.product .img img
+{
+	border:2px solid #e1d9d2;	
+}
+
+.product .img img:hover
+{
+	border:2px solid #4999af;
+}
+
+.product .detail
+{
+	width:215px;
+	padding-left:30px;
+	height:52px;
+	font-family:Proxima Nova;
+	font-size:17px;
+	color:white;
+	line-height:52px;
+	float:left;
+	background-color:#f1715e;
+	margin-top:-5px;
+}
+
+.product .price
+{
+	width:75px;
+	font-family:Proxima Nova;
+	line-height:52px;
+	color:white;
+	font-size:17px;
+	text-align:center;
+	height:52px;
+	float:left;
+	margin-top:-5px;
+	background-color:#4999af;
+}
+
+/*****************body end***********************/
+footer
+{
+	height:213px;	
+}
+
+footer #top
+{
+	height:158px;	
+}
+
+footer #top #first
+{
+	width:283px;
+	padding-top:32px;
+	height:126px;
+	float:left;	
+}
+
+footer #top #first p
+{
+	font-family:Proxima Nova;
+	font-size:20px;
+	text-transform:uppercase;
+	color:white;	
+}
+
+footer #top #first a
+{
+	display:block;
+	font-family:Proxima Nova;
+	font-size:18px;
+	margin-top:15px;
+	border-radius:10px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	width:275px;
+	background-color:#4999af;	
+}
+
+footer #top #sec
+{
+	width:254px;
+	padding-top:32px;
+	margin-left:86px;
+	float:left;
+	height:126px;	
+}
+
+footer #top #sec p
+{
+	font-size:20px;
+	text-transform:uppercase;
+	color:white;
+	font-family:Proxima Nova;	
+}
+
+footer #top #sec p+p
+{
+	font-size:20px;
+	text-transform:none;
+	color:white;
+	font-weight:bold;
+	margin-top:10px;
+	font-family:Proxima Nova;	
+}
+
+footer #top #sec p+p+p
+{
+	font-size:12px;
+	text-transform:none;
+	color:#b3b3b3;
+	font-weight:100;
+	margin-top:0px;
+	font-family:Proxima Nova;	
+}
+
+footer #top #third
+{
+	width:248px;
+	padding-top:32px;
+	margin-left:129px;
+	float:left;
+	height:126px;	
+}
+
+footer #top #third p
+{
+	font-family:Proxima Nova;
+	font-size:20px;
+	color:white;
+	text-transform:uppercase;	
+}
+
+footer #bottom
+{
+	height:54px;
+	border-top:1px solid #6b6b6a;
+}
+
+footer #bottom #data
+{
+	float:left;
+	font-family:Proxima Nova;
+	font-size:12px;
+	color:#b3b3b3;
+	height:54px;
+	line-height:54px;	
+}
+
+footer #bottom nav
+{
+	float:left;	
+}
+
+footer #bottom nav ul
+{
+	list-style-type:none;	
+}
+
+footer #bottom nav ul li
+{
+	float:left;
+	margin-top:21px;
+	padding:0px 10px 0px 10px;
+	border-right:1px solid #b3b3b3;
+	font-family:Proxima Nova;
+	font-size:12px;	
+}
+
+footer #bottom nav ul li a
+{
+	
+	color:#b3b3b3;
+	text-decoration:none;	
+}
+
+footer #bottom nav ul li a:hover
+{
+	text-decoration:underline;	
+}
+
+footer #bottom nav ul li:nth-child(2)
+{
+	border-right:none;	
+}
+
+
+/***************footer body*************************/
+
+#back_bottom
+{
+	height:213px;
+	margin-top:-213px;
+	z-index:99;
+	background-color:#525252;
+}
+/***************end back bottom***********************/
